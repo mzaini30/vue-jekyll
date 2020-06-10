@@ -1,0 +1,23 @@
+---
+---
+<!DOCTYPE HTML>
+<html>
+<head>
+ <title>Component</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <link rel="stylesheet" href="vendor/bootstrap.min.css">
+ <script src="vendor/vue.min.js"></script>
+ <script src="vendor/vue-router.min.js"></script>
+</head>
+<body>
+ <div class="vue">
+  <div class="container">
+   <router-view></router-view>
+  </div>
+ </div>
+ {% include beranda.html %}
+ {% include about.html %}
+ <script src="index.js"></script>
+</body>
+</html>
